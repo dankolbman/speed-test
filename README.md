@@ -5,20 +5,22 @@ Testing the performance of various languages.
 
 The procedure:
 
-1. Generate `1000 particles` in a 3D box of size 1
+1. Generate `10000 particles` in a 3D box of size 1
 2. Move each particle randomly, wrapping it to fit in the box, for `10000 steps`
 3. Write each final position to a file
 
 Bench Marks
 ==========
 
-- 0.51s gfortran with optimization flags
+- 2.87s gcc -O2
 
-- 0.70s gfortran
+- 4.50s gfortran with optimization flags
 
-- Julia - 8.8s
+- 6.52s gfortran
 
-- Python 3.4 - 175.24s
+- Julia - 88.36s
+
+- Python 3.4 - 1769.32s
 
 
 Dependencies

@@ -4,8 +4,8 @@ c
 c     Dan Kolbman 2014
 c----------------------------------------------------------
 
-      program fortran
-      parameter( n = 1000)      ! Number of particles
+      program particles
+      parameter( n = 10000)     ! Number of particles
       parameter( steps = 10000) ! Number of simulation steps
       integer i, part   ! Iterators
       real*8 pos(n,3)   ! Particle positions

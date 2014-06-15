@@ -4,5 +4,5 @@ Results
 Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz
 
 
-  % time julia julia/julia.jl
-  julia julia/julia.jl  8.80s user 0.28s system 102% cpu 8.840 total
+    % time julia particles.jl 
+    julia particles.jl  88.36s user 0.52s system 99% cpu 1:29.25 total

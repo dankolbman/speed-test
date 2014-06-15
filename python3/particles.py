@@ -7,7 +7,7 @@ Dan Kolbman 2014
 import numpy.random as nprand
 import math
 
-n     = 1000  # particles
+n     = 10000  # particles
 steps = 10000  # How long to simulate
 
 # Create particles in 3D box of 1x1x1

@@ -4,7 +4,7 @@ Performance test for Julia
 Dan Kolbman 2014
 """
 
-n     = 1000  # Partcles
+n     = 10000 # Partcles
 steps = 10000 # How long to simulate
 
 # Create particles in a 3D box of size 1
