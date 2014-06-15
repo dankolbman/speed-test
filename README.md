@@ -12,9 +12,14 @@ The procedure:
 Bench Marks
 ==========
 
+- 0.51s gfortran with optimization flags
+
+- 0.70s gfortran
+
 - Julia - 8.8s
 
 - Python 3.4 - 175.24s
+
 
 Dependencies
 ==========
