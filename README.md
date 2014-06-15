@@ -12,6 +12,7 @@ The procedure:
 Bench Marks
 ==========
 
+Julia - 8.8s
 Python 3.4 - 175.24s
 
 Dependencies
