@@ -3,6 +3,8 @@ Results
 
 Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz
 
+Timed using tic(), toc() to avoid timing the REPL
 
-    % time julia particles.jl 
-    julia particles.jl  88.36s user 0.52s system 99% cpu 1:29.25 total
+
+    $ julia particles.jl                                                                                                                                                                                                                                                                     [23:45:10]
+    elapsed time: 8.966865333 seconds
